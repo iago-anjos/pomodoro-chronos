@@ -1,0 +1,86 @@
+/* ======================================================== */
+/* === THEME 2: VERDANT BREAK (Verde Musgo e Creme)     === */
+/* ======================================================== */
+
+:root {
+  /* 🎭 Tons de Verde/Creme (cores dinâmicas) */
+  --gray-100: #fefae0;
+  --gray-200: #e9e4c5;
+  --gray-300: #d4d0a9;
+  --gray-400: #a3a084;
+  --gray-500: #72705e;
+  --gray-600: #4f4d3f;
+  --gray-700: #3a392d; /* Bordas e separadores */
+  --gray-800: #2a2922; /* Fundo de cartões */
+  --gray-900: #1a1915; /* Fundo principal */
+
+  /* 🌿 Cores Primárias (Verde Sálvia - fixas) */
+  --primary-light: #a3b18a;
+  --primary: #588157;
+  --primary-dark: #3a5a40;
+
+  /* 🔗 Links */
+  --link-color: #a3b18a;
+  --link-hover: #588157;
+
+  /* 🚦 Alertas */
+  --success: #588157;
+  --warning: #eab308;
+  --error: #bc6c25; /* Laranja queimado para combinar com o tema terra */
+  --info: #0ea5e9;
+
+  /* 🎨 Texto sobre fundos coloridos */
+  --text-over-primary: #fefae0;
+  --text-over-primary-dark: #fefae0;
+  --text-over-primary-light: #1a1915;
+  --text-over-success: #fefae0;
+  --text-over-warning: #1a1915;
+  --text-over-error: #fefae0;
+  --text-over-info: #1a1915;
+
+  /* 📝 Cores do Texto (dinâmicas) */
+  --text-default: #fefae0;
+  --text-muted: #a3a084;
+
+  /* 🚫 Cores para elementos desativados */
+  --disabled: #72705e;
+  --text-disabled: #a3a084;
+
+  /* 🔔 Cores do Toastify */
+  --toastify-color-light: var(--text-default);
+  --toastify-color-dark: var(--text-default);
+  --toastify-color-info: var(--info);
+  --toastify-color-success: var(--success);
+  --toastify-color-warning: var(--warning);
+  --toastify-color-error: var(--error);
+  --toastify-text-color-light: #1a1915;
+  --toastify-text-color-dark: #fefae0;
+  --toastify-color-progress-light: var(--primary);
+  --toastify-color-progress-dark: var(--primary);
+}
+
+/* 🌞 Modo Claro - Verdant Break */
+:root[data-theme='light'] {
+  /* Tons de Cinza Invertidos */
+  --gray-100: #1a1915;
+  --gray-200: #2a2922;
+  --gray-300: #3a392d;
+  --gray-400: #4f4d3f;
+  --gray-500: #72705e;
+  --gray-600: #a3a084;
+  --gray-700: #d4d0a9;
+  --gray-800: #e9e4c5;
+  --gray-900: #fefae0; /* Fundo principal claro */
+
+  /* 📝 Texto no modo claro */
+  --text-default: #1a1915;
+  --text-muted: #4f4d3f;
+
+  /* 🔗 Links no modo claro */
+  --link-color: #3a5a40;
+  --link-hover: #588157;
+
+  /* 🔔 Toastify no modo claro */
+  --toastify-text-color-light: #fefae0;
+  --toastify-text-color-dark: #fefae0;
+}
