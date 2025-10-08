@@ -1,4 +1,4 @@
-import { TimerIcon } from 'lucide-react';
+import { PlayCircleIcon, TimerIcon } from 'lucide-react';
 import { Container } from './Container';
 import { Logo } from './Logo';
 import './styles/global.css';
@@ -7,6 +7,7 @@ import { Menu } from './Menu';
 import { CountDown } from './CountDown';
 import { DefaultInput } from './DefaultInput';
 import { Cycles } from './Cycles';
+import { DefaultButton } from './DefaultButton';
 
 export function App() {
   return (
@@ -38,6 +39,10 @@ export function App() {
 
           <div className='formRow'>
             <Cycles />
+          </div>
+
+          <div className='formRow'>
+            <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
       </Container>
