@@ -6,6 +6,7 @@ import './styles/theme.css';
 import { Menu } from './Menu';
 import { CountDown } from './CountDown';
 import { DefaultInput } from './DefaultInput';
+import { Cycles } from './Cycles';
 
 export function App() {
   return (
@@ -32,8 +33,11 @@ export function App() {
               type='text'
               placeholder='Digite sua Task..'
               accessKey='Digite sua Task'
-              defaultValue={'valor preenchido'}
             ></DefaultInput>
+          </div>
+
+          <div className='formRow'>
+            <Cycles />
           </div>
         </form>
       </Container>
