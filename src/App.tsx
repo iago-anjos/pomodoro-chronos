@@ -8,6 +8,7 @@ import { CountDown } from './CountDown';
 import { DefaultInput } from './DefaultInput';
 import { Cycles } from './Cycles';
 import { DefaultButton } from './DefaultButton';
+import { Footer } from './Footer';
 
 export function App() {
   return (
@@ -45,6 +46,10 @@ export function App() {
             <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
+
+        <Container>
+          <Footer />
+        </Container>
       </Container>
     </>
   );
