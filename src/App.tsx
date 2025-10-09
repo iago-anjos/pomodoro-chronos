@@ -1,14 +1,15 @@
 import { PlayCircleIcon, TimerIcon } from 'lucide-react';
 import { Container } from './Container';
 import { Logo } from './Logo';
-import './styles/global.css';
-import './styles/theme.css';
 import { Menu } from './Menu';
 import { CountDown } from './CountDown';
 import { DefaultInput } from './DefaultInput';
 import { Cycles } from './Cycles';
 import { DefaultButton } from './DefaultButton';
 import { Footer } from './Footer';
+
+import './styles/global.css';
+import './styles/theme.css';
 
 export function App() {
   return (
